@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도서등록</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <p>과정평가형 정보처리산업기사(v4.0) 도서관리 프로그램</p>
+    </header>
+
+    <nav>
+        <a href="#">도서정보조회</a>
+        <a href="#">도서대출</a>
+        <a href="#">도서대출이력조회</a>
+        <a href="#">홈으로</a>
+    </nav>
+
+    <main>
+        <h1>도서대출</h1>
+        <div>
+            <form action="" name="">
+                <table>
+                    <tr>
+                        <th>대출번호</th>
+                        <td><input type="text" name="number" placeholder="예)L001"></td>
+                    </tr>
+                    <tr>
+                        <th>회원 ID</th>
+                        <td><input type="text" name="id" placeholder="예)M001"></td>
+                    </tr>
+                    <tr>
+                        <th>소장번호(개별 책)</th>
+                            <td>
+                                <select name="" id="" placeholder="번호선택">
+                                    <option value="1">C001</option>
+                                    <option value="2">C002</option>
+                                    <option value="3">C003</option>
+                                </select>
+                            </td>
+                    </tr>
+                <tr>
+                    <th>대여일자</th>
+                    <td><input type="text" name="get" placeholder="예)250915"></td>
+                </tr>
+                <tr>
+                    <th>반납예정일</th>
+                    <td><input type="text" name="out" placeholder="예)250923"></td>
+                </tr>
+                <tr>
+                    <th>대출결과</th>
+                    <td>
+                        <select name="" id="" placeholder="결과선택">
+                            <option value="1">대출 중</option>
+                            <option value="2">반납</option>
+                            <option value="3">분실/손상</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="button">
+                        <input type="submit" value="등록">
+                        <input type="reset" value="다시쓰기">
+                    </td>
+                </tr>
+                </table>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>PCS Copyright©2025All rights reserved. Pusan Computer Science High School.</p>
+    </footer>
+</body>
+</html>
